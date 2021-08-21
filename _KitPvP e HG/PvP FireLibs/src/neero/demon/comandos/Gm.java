@@ -27,7 +27,7 @@
 /*    */     {
 /* 27 */       if (args.length != 1)
 /*    */       {
-/* 29 */         player.sendMessage(ChatColor.RED + "/gm 0 ou 1");
+/* 29 */         player.sendMessage
 /* 30 */         return true;
 /*    */       }
 /* 32 */       if (args.length == 1)
@@ -35,12 +35,12 @@
 /* 34 */         if (args[0].equalsIgnoreCase("0"))
 /*    */         {
 /* 36 */           player.setGameMode(GameMode.SURVIVAL);
-/* 37 */           player.sendMessage("§4§LGAMEMODE §e§l§oVoce alterou seu modo de jogo para §a§oSurvival §e§l§o!");
+/* 37 */           player.sendMessage
 /*    */         }
 /* 39 */         if (args[0].equalsIgnoreCase("1"))
 /*    */         {
 /* 41 */           player.setGameMode(GameMode.CREATIVE);
-/* 42 */           player.sendMessage("§4§LGAMEMODE §e§l§oVoce alterou seu modo de jogo para §a§oCreative §e§l§o!");
+/* 42 */           player.sendMessage
 /*    */         }
 /* 44 */         return true;
 /*    */       }
